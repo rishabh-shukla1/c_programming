@@ -1,0 +1,27 @@
+//question 51-armstrong
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    int d=n;;
+    int s=0;
+    
+    for(int i=1;i<=d;i++)
+    {
+        int r=n%10;
+        s=s+(r*r*r);
+        n=n/10;
+        if(n==0)
+        break;
+       
+        
+    }
+ if(s==d)
+ printf("armstrong");
+ else
+ printf("not armstrong");
+
+    
+}

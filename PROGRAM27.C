@@ -1,0 +1,17 @@
+//question 27-find maximum of three numbers using conditional operator
+#include<stdio.h>
+int main()
+{
+    int n;
+    int m;
+    int k;
+       printf("enter  first number\n");
+       scanf("%d",&n);
+       printf("enter second number\n");
+       scanf("%d",&m);
+       printf("enter third number");
+       scanf("%d",&k);
+
+        (n>m&&n>k)?printf("maximum =%d",n):m>k?printf("maximum =%d",m):printf("maximum =%d",k);
+
+}

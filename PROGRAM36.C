@@ -1,0 +1,18 @@
+//question 36- weather it is a aplabet or not
+#include<stdio.h>
+int main()
+{
+    char a;
+    
+       printf("enter  a alphabet\n");
+       scanf("%ca",&a);
+       int n=a;
+    if((n>=65&&n<=90)||(n>=97&&n<=122))
+    printf("alphabet ");
+    else
+    printf("not alphabet");
+
+
+        
+
+}
